@@ -62,5 +62,5 @@ proxy = ''
 w3_client = Client(private_key=private_key, proxy=proxy)
 claim_client = Claim(client=w3_client)
 
-asyncio.run(claim_client.info_after_claim())
+asyncio.run(claim_client.main())
 
